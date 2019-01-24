@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{Component}from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { DatePicker } from 'antd';
@@ -14,6 +14,7 @@ class App extends React.Component {
   );
   }
   
+
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
